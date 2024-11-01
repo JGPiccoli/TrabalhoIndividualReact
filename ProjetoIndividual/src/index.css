@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+header {
+  background: linear-gradient(to right, #36096d, #37d5d6);
+  text-align: center;
+  border: 2px solid #7e75ff;
+  height: 10vh;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+div .corpo {
+  height: 80vh;
+  font-family: "Arial", sans-serif;
+  line-height: 1.9;
+  background: linear-gradient(to bottom, #757eff, #28868d);
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .caixa {
+  padding: 20px;
+  border: 2px solid #7e75ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to bottom, #103253, #4ca1af);
+  max-width: 400px;
+  width: 100%;
+  color: #ffffff;
+}
+
+footer {
+  background: linear-gradient(to right, #37d5d6, #36096d);
+  text-align: center;
+  border: 2px solid #7e75ff;
+  height: 10vh;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: #ffffff;
+}
